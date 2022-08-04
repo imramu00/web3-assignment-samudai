@@ -35,6 +35,7 @@ function stats() {
 
     useEffect(() => {
         if (!userDetail) {
+            alert('Login to view this page');
             return navigate('/');
         }
     }, []);
